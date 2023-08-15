@@ -1,0 +1,62 @@
+:root {
+    font-size: $font-size--default;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @include full-relative;
+    background-color: $color-black--regular;
+    scroll-behavior: smooth;
+}
+
+#__next {
+    @extend body;
+}
+
+#root {
+    @include d-flex(column, unset, unset);
+
+    main {
+        flex: 1 1 auto;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    @include img-normalize;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+button,
+input,
+textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    max-width: calc(1120px + 40px);
+    width: 100%;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
