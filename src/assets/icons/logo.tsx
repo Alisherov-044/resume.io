@@ -1,11 +1,6 @@
 export function LogoIcon() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="120"
-      height="32"
-      viewBox="0 0 120 32"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
       <path
         fill="#2F8DEB"
         d="M22.26 5.31H6.35c-.3 0-.55.25-.55.55v6.97h8.9c.3 0 .55.24.55.54v8.85h7.01c.3 0 .55-.25.55-.55V5.87c0-.31-.24-.56-.55-.56z"

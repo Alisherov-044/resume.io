@@ -1,3 +1,14 @@
+import { Navbar } from "./components/Navbar";
+import { useScroll } from "@/hooks";
+
 export function Header() {
-  return <h1>header</h1>;
+  const { isScrollingToTop } = useScroll();
+
+  return (
+    <header className={`header ${isScrollingToTop ? "pinned" : "unpinned"}`}>
+      <div className="header__content">
+        <Navbar />
+      </div>
+    </header>
+  );
 }

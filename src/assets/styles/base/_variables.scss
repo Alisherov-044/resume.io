@@ -1,26 +1,17 @@
 /* Colors */
-$color-white--regular: #fff;
-$color-white--smoke: #fff3e4;
-$color-white--dark: #ffffffb3;
-$color-black--light: #181823;
-$color-black--regular: #000;
-$color-blue--light: #464dff;
-$color-blue--regular: #5221e6;
-$color-blue--dark: #2A0B85;
-$color-green--light: #04D4D6;
-$color-green--regular: #78a962;
-$color-green--dark: #2e5a1a;
-$color-red: #c94d3f;
-$color-pink: #e95d90;
-$color-grey--light: #ffffff80;
-$color-grey--regular: #8491a0;
-$color-grey-dark: #5b6876;
-$color-border: #ffffff1f;
+$white: #fff;
+$neutral-10: #eff2f9;
+$neutral-20: #d9deeb;
+$neutral-90: #1e2532;
+$blue-50: #1a91f0;
+$blue-60: #1170cd;
+$blue-70: #10529b;
 
 /* Shadows */
-$shadow--primary: 0px 5px 15px 0px rgba(0, 0, 0, .14);
-$shadow--secondary: 0px 4px 200px 0px rgba(0, 0, 0, .18);
-$shadow--light: 0px 1px 4px 0px rgba(0, 0, 0, .17);
+
+/* Z-Index */
+$z-header: 100;
+$z-navbar: 101;
 
 /* Default sizes */
 $font-weight--light:   300 !default;

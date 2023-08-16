@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Resume",
+        "link": "/resume",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 2,
+        "title": "Cover Letter",
+        "link": "/cover-letter",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 3,
+        "title": "Resume Writing",
+        "link": "/resume-writing",
+        "dataTrigger": "resume-writing"
+    },
+    {
+        "id": 4,
+        "title": "Blog",
+        "link": "/blog"
+    },
+    {
+        "id": 5,
+        "title": "FAQ",
+        "link": "/help"
+    }
+]
