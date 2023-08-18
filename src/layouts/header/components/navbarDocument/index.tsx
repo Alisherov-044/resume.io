@@ -1,26 +1,22 @@
-import Link from "next/link";
+import { NavbarDocumentTemplates } from "./NavDocsTemplates";
+import { NavbarDocumentExamples } from "./NavDocsExamples";
 import { NavbarDocumentInterface } from "@/interface";
+import { NavbarDropdownSidebar } from "./NavDropdownSidebar";
 
 export function NavbarDocument({
   templates,
   examples,
   sidebar,
+  className,
 }: NavbarDocumentInterface) {
-  const {
-    title: templatesTitle,
-    link: templatesLink,
-    categories: templateCategories,
-  } = templates;
-  const { title: examplesTitle, categories: examplesCategories } = examples;
-  const { title: sidebarTitle, icon, link: sidebarLink } = sidebar;
-
   return (
-    <div className="navbar__document navbar__dropdown-content">
+    <div className={`navbar__document navbar__dropdown-content ${className}`}>
       <div className="navbar__document-container navbar__dropdown-container">
         <div className="navbar__document-main">
-          <div className="navbar__document-examples"></div>
+          <NavbarDocumentTemplates templates={templates} />
+          <NavbarDocumentExamples examples={examples} />
         </div>
-        <div className="navbar__document-sidebar"></div>
+        <NavbarDropdownSidebar sidebar={sidebar} />
       </div>
     </div>
   );

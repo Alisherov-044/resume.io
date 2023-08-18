@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NavbarDocumentInterface } from "@/interface";
+import { NavbarDocumentCategoryCard } from "@/components";
 
 export function NavbarDocumentTemplates({
   templates,
@@ -16,7 +17,11 @@ export function NavbarDocumentTemplates({
           View all
         </Link>
       </div>
-      <div className="navbar__template-categories"></div>
+      <div className="navbar__template-categories">
+        {categories.map((category) => (
+          <NavbarDocumentCategoryCard {...category} key={category.id} />
+        ))}
+      </div>
     </div>
   );
 }

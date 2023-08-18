@@ -12,12 +12,14 @@ export interface NavbarDocumentTemplateCategoriesScheme {
   label: string;
   description: string;
   link: string;
+  dataTrigger?: string;
 }
 
 export interface NavbarDocumentExamplesLinkScheme {
   id: number;
   label: string;
   link: string;
+  dataTrigger?: string;
 }
 
 export interface NavbarDocumentTemplateScheme {
@@ -28,6 +30,7 @@ export interface NavbarDocumentTemplateScheme {
 
 export interface NavbarDocumentExamplesScheme {
   title: string;
+  link: string;
   categories: NavbarDocumentExamplesLinkScheme[];
 }
 
@@ -36,4 +39,5 @@ export interface NavbarDocumentSidebarScheme {
   title: string;
   description: string;
   link: string;
+  dataTrigger?: string;
 }

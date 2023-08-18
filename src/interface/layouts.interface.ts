@@ -18,10 +18,11 @@ export interface NavbarMenuInterface {
 }
 
 export interface NavbarDocumentInterface {
-  contentKey: string;
+  dataTrigger?: string;
   templates: NavbarDocumentTemplateScheme;
   examples: NavbarDocumentExamplesScheme;
   sidebar: NavbarDocumentSidebarScheme;
+  className?: string;
 }
 
 export interface NavbarDocumentCategoryCardInterface

@@ -1,6 +1,7 @@
 /* Icons */
 import { LogoIcon } from "./icons/logo";
-import { ArrowIcon } from "./icons/arrow";
+import { ArrowDownIcon } from "./icons/arrow-down";
+import { ArrowRightIcon } from "./icons/arrow-right";
 import { BurgerIcon } from "./icons/burger";
 
-export { LogoIcon, ArrowIcon, BurgerIcon };
+export { LogoIcon, ArrowDownIcon, ArrowRightIcon, BurgerIcon };

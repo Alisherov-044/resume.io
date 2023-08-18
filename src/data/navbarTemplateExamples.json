@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "label": "Nurse",
+        "link": "/nurse",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 2,
+        "label": "Customer Service Representative",
+        "link": "/customer-service-representative",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 3,
+        "label": "Internship",
+        "link": "/internship",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 4,
+        "label": "Teacher",
+        "link": "/teacher",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 5,
+        "label": "Accountant",
+        "link": "/accountant",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 1,
+        "label": "Nursing",
+        "link": "/nursing",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 2,
+        "label": "Teacher",
+        "link": "/teacher",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 3,
+        "label": "Administrative Assistant",
+        "link": "/administrative-assistant",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 4,
+        "label": "Customer Service Representative",
+        "link": "/customer-service-representative",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 5,
+        "label": "Internship",
+        "link": "/internship",
+        "dataTrigger": "cover-letter"
+    }
+]
+
+
+
+
+

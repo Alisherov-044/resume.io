@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "/navbar/resume-builder.svg",
+        "title": "Resume Builder",
+        "link": "/resume-builder",
+        "description": "Build powerful resumes in only 5 minutes with our easy to use Resume Builder and get hired faster.",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 2,
+        "icon": "/navbar/cover-letter-builder.svg",
+        "title": "Cover Letter Builder",
+        "link": "/cover-letter-builder",
+        "description": "Build professional cover letters in a few simple steps by using our free Cover Letter builder.",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 3,
+        "icon": "/navbar/resume-writer.svg",
+        "title": "Get started now",
+        "link": "/resume-builder",
+        "description": "Build professional cover letters in a few simple steps by using our free Cover Letter builder.",
+        "dataTrigger": "resume-writer"
+    }
+]

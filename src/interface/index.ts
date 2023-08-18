@@ -15,6 +15,10 @@ import { BurgerIconInterface } from "./icons.interface";
 
 /* Hooks */
 import { ScrollPositionInterface } from "./hooks.interface";
+import { NavbarDocumentsHookInterface } from "./hooks.interface";
+
+/* Redux */
+import { LayoutSliceInterface } from "./redux.interface";
 
 export type {
   Events,
@@ -25,5 +29,7 @@ export type {
   NavbarDocumentInterface,
   BurgerIconInterface,
   ScrollPositionInterface,
+  NavbarDocumentsHookInterface,
   NavbarDocumentCategoryCardInterface,
+  LayoutSliceInterface,
 };

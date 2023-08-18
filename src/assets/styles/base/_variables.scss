@@ -1,8 +1,14 @@
 /* Colors */
 $white: #fff;
+$neutral-5: #f7f9fc;
 $neutral-10: #eff2f9;
+$neutral-15: #e7eaf4;
 $neutral-20: #d9deeb;
+$neutral-50: #828ba2;
+$neutral-60: #656e83;
 $neutral-90: #1e2532;
+$black: #000;
+$blue-1: #b3d4fc;
 $blue-50: #1a91f0;
 $blue-60: #1170cd;
 $blue-70: #10529b;
@@ -10,8 +16,8 @@ $blue-70: #10529b;
 /* Shadows */
 
 /* Z-Index */
-$z-header: 100;
-$z-navbar: 101;
+$z-header: 10;
+$z-navbar: 11;
 
 /* Default sizes */
 $font-weight--light:   300 !default;

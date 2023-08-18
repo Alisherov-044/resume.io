@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "icon": "/navbarDocsCategories/simple.svg",
+        "label": "Simple",
+        "description": "Clean, timeless templates with a classic balanced structure. A perfect basic canvas",
+        "link": "/resume-templates/simple",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 2,
+        "icon": "/navbarDocsCategories/professional.svg",
+        "label": "Professional",
+        "description": "Job-winning templates to showcase professionalism, dependability and expertise",
+        "link": "/resume-templates/professional",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 3,
+        "icon": "/navbarDocsCategories/modern.svg",
+        "label": "Modern",
+        "description": "A current and stylish feel for forward-thinking candidates in innovative fields",
+        "link": "/resume-templates/modern",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 4,
+        "icon": "/navbarDocsCategories/creative.svg",
+        "label": "Creative",
+        "description": "A bold, original feel perfect for artistic fields and contemporary companies",
+        "link": "/resume-templates/creative",
+        "dataTrigger": "resume"
+    },
+    {
+        "id": 5,
+        "icon": "/navbarDocsCategories/simple.svg",
+        "label": "Simple",
+        "description": "Clean, straightforward templates aiming to keep the focus on your letter’s writing and content",
+        "link": "/cover-letter-templates/simple",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 6,
+        "icon": "/navbarDocsCategories/professional.svg",
+        "label": "Professional",
+        "description": "Polished designs to help you highlight your knowledge and expertise in formal fields",
+        "link": "/cover-letter-templates/professional",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 7,
+        "icon": "/navbarDocsCategories/modern.svg",
+        "label": "Modern",
+        "description": "Sleek and attractive designs for forward-thinking candidates in innovative fields",
+        "link": "/cover-letter-templates/modern",
+        "dataTrigger": "cover-letter"
+    },
+    {
+        "id": 8,
+        "icon": "/navbarDocsCategories/creative.svg",
+        "label": "Creative",
+        "description": "Stylish templates defined by a unique approach to show off your originality and inspiration",
+        "link": "/cover-letter-templates/creative",
+        "dataTrigger": "cover-letter"
+    }
+]

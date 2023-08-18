@@ -1,4 +1,4 @@
-import { DropDownInterface } from "@/interface";
+import { DropDownInterface, Events } from "@/interface";
 
 export function DropDown({ children, isHidden, className }: DropDownInterface) {
   return (
